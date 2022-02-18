@@ -1,12 +1,16 @@
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad
 
+from rich.console import Console
+from rich.table import Table
+
 import string, time
 
 ALLOWED_CHARACTERS = string.printable
 NUMBER_OF_CHARACTERS = len(ALLOWED_CHARACTERS)
-KEY = "kod0"
-DATA = "taja"
+
+KEY = "KEY"
+DATA = "DATA"
 
 def characterToIndex(char):
     return ALLOWED_CHARACTERS.index(char)
@@ -54,6 +58,10 @@ def decodeMe(data, key):
 def main(data, key):
     sequence = []
     cipher = codeMe(bytearray(data,"utf-8"),bytearray(key,"utf-8"))
+    table = Table(title="DISTRIBUTED CIPHER CRACKING")
+    table.add_column("SECONDS", justify="right", style="cyan", no_wrap=True)
+    table.add_column("POSSIBLE PASSWORD", style="magenta")
+    table.add_column("KEY", justify="right", style="green")
     while True:
         sequence = n(sequence)
         buf = ""
@@ -61,10 +69,21 @@ def main(data, key):
         key = bytearray(stra, "utf-8")
         textbyte = bytearray(parseMe(decodeMe(cipher, key)), "utf-8")
         if codeMe(textbyte, key) == cipher:
-           print("--- %s seconds ---" % (time.time() - start_time))
-           print("possibility: password",textbyte.decode("utf-8"),"key", key.decode("utf-8"))
+            table.add_row("%s" % (time.time() - start_time), textbyte.decode("utf-8"), key.decode("utf-8"))
+            if key.decode("utf-8") == KEY:
+                # table.add_row("%s" % (time.time() - start_time), textbyte.decode("utf-8"), key.decode("utf-8"))
+                console = Console()
+                console.print(table)
+                break
+        
+        #    print("- %s seconds -" % (time.time() - start_time))
+        #    print("Possible: password",textbyte.decode("utf-8"),"key", key.decode("utf-8"))
+        #    if key.decode("utf-8") == KEY:
+        #         print("- %s seconds -" % (time.time() - start_time))
+        #         print("KEY: ",key.decode("utf-8"))
+        #         break
+
 
 if __name__ == "__main__":
-
     start_time = time.time()
     main(DATA, KEY)
