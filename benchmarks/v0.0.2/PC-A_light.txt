@@ -1,0 +1,38 @@
+          DISTRIBUTED CIPHER CRACKING           
+┏━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┳━━━━━┓
+┃            SECONDS ┃ POSSIBLE PASSWORD ┃ KEY ┃
+┡━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━╇━━━━━┩
+│ 19.871467351913452 │ DATA              │ JDX │
+│  19.87152409553528 │ DATA              │ KDX │
+│ 19.874666690826416 │ DATA              │ JEX │
+│ 19.874708652496338 │ DATA              │ KEX │
+│ 20.187371253967285 │ DATA              │ JDY │
+│  20.18742084503174 │ DATA              │ KDY │
+│  20.19047260284424 │ DATA              │ JEY │
+│  20.19051241874695 │ DATA              │ KEY │
+└────────────────────┴───────────────────┴─────┘
+Python Version: 3.8.10
+
+System Information
+System: Linux
+Release: 5.10.93.2-microsoft-standard-WSL2
+Version: #1 SMP Wed Jan 26 22:38:54 UTC 2022
+Processor: x86_64
+
+CPU Info
+Physical cores: 12
+Total cores: 24
+Current Frequency: 4000.04Mhz
+Total CPU Usage: 4.2%
+
+Memory Information
+Total: 15.58GB
+Available: 14.98GB
+Used: 350.14MB
+Percentage: 3.8%
+
+SWAP
+Total: 4.00GB
+Free: 4.00GB
+Used: 0.00B
+Percentage: 0.0%
