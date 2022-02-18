@@ -1,10 +1,12 @@
 from Crypto.Cipher import DES
-from Crypto.Util.Padding import pad, unpad
-
+from Crypto.Util.Padding import pad
 
 import string, time
+
 ALLOWED_CHARACTERS = string.printable
 NUMBER_OF_CHARACTERS = len(ALLOWED_CHARACTERS)
+KEY = "kod0"
+DATA = "taja"
 
 def characterToIndex(char):
     return ALLOWED_CHARACTERS.index(char)
@@ -12,18 +14,19 @@ def characterToIndex(char):
 def indexToCharacter(index):
     if NUMBER_OF_CHARACTERS <= index:
         raise ValueError("Index out of range.")
-    else:
-        return ALLOWED_CHARACTERS[index]
+    
+    return ALLOWED_CHARACTERS[index]
 
-def next(string):
+# The function takes the next list from the interval
+def n(s_list):
 
-    if len(string) <= 0:
-        string.append(indexToCharacter(0))
+    if len(s_list) <= 0:
+        s_list.append(indexToCharacter(0))
     else:
-        string[0] = indexToCharacter((characterToIndex(string[0]) + 1) % NUMBER_OF_CHARACTERS)
-        if characterToIndex(string[0]) == 0:
-            return list(string[0]) + next(string[1:])
-    return string
+        s_list[0] = indexToCharacter((characterToIndex(s_list[0]) + 1) % NUMBER_OF_CHARACTERS)
+        if characterToIndex(s_list[0]) == 0:
+            return list(s_list[0]) + n(s_list[1:])
+    return s_list
 
 
 def parseMe(array):
@@ -43,31 +46,25 @@ def codeMe(data, key):
     ciphertext = cipher.encrypt(pad(data, 8))
     return ciphertext
 
-def deCodeMe(data, key):
+def decodeMe(data, key):
     cipher = DES.new(key=pad(key, 8), mode=DES.MODE_ECB)
     ciphertext = cipher.decrypt(pad(data, 8))
     return ciphertext
 
-
 def main(data, key):
-    sequence = list()
-    chipher = codeMe(bytearray(data,"utf-8"),bytearray(key,"utf-8"))
-    # testdecode = deCodeMe(chipher, bytearray(key,"utf-8"))
-    # print(testdecode)
+    sequence = []
+    cipher = codeMe(bytearray(data,"utf-8"),bytearray(key,"utf-8"))
     while True:
-        sequence = next(sequence)
+        sequence = n(sequence)
         buf = ""
         stra = buf.join(sequence)
         key = bytearray(stra, "utf-8")
-        textbyte = bytearray(parseMe(deCodeMe(chipher, key)), "utf-8")
-        if codeMe(textbyte, key) == chipher:
+        textbyte = bytearray(parseMe(decodeMe(cipher, key)), "utf-8")
+        if codeMe(textbyte, key) == cipher:
            print("--- %s seconds ---" % (time.time() - start_time))
            print("possibility: password",textbyte.decode("utf-8"),"key", key.decode("utf-8"))
 
 if __name__ == "__main__":
+
     start_time = time.time()
-    key = "kod0"
-    data = "taja"
-    main(data, key)
-
-
+    main(DATA, KEY)
