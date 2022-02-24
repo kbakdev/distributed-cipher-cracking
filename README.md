@@ -9,7 +9,7 @@
 <div align="center">
 
 [![GitHub Issues](https://img.shields.io/github/issues/53jk1/distributed-cipher-cracking.svg)](https://github.com/53jk1/distributed-cipher-cracking/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/53jk1/distributed-cipher-cracking/pulls)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/53jk1/distributed-cipher-cracking.svg)](https://github.com/53jk1/distributed-cipher-cracking/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
