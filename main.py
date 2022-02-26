@@ -1,10 +1,38 @@
 import string, multiprocessing, time, sys
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad
-
+#initials
 ALLOWED_CHARACTERS = string.printable
 NUMBER_OF_CHARACTERS = len(ALLOWED_CHARACTERS)
 
+
+
+#Classes
+class findings:
+    def __init__(self):
+        self.password = 0
+        self.key = 0
+        self.i = 0
+        self.time = 0
+
+class frame:
+    def __init__(self):
+        self.name = ""
+        self.i = 0
+        self.len = 0
+        self.objects = []
+
+    def lenMe(self):
+        self.len = len(self.objects)
+
+    def boutMe(self):
+        print("My name is range: ("+self.name+")")
+        print("Number of my findigs is:"+str(self.len))
+        print("My ID is: "+str(self.i))
+
+
+
+#Helper functions
 def characterToIndex(char):
     return ALLOWED_CHARACTERS.index(char)
 
@@ -98,6 +126,14 @@ def findMe(jakisint):
 
     return buffor
 
+def sortMe(list):
+    bufor = []
+    i = len(list)
+    for _ in range(i):
+        bufor.append(0)
+    for rec in list:
+        bufor[rec.i-1] = rec
+    return bufor
 
 def codeMe(data, key):
     cipher = DES.new(key=pad(key, 8), mode=DES.MODE_ECB)
@@ -108,26 +144,6 @@ def deCodeMe(data, key):
     cipher = DES.new(key=pad(key, 8), mode=DES.MODE_ECB)
     ciphertext = cipher.decrypt(pad(data, 8))
     return ciphertext
-
-class findings:
-    def __init__(self):
-        self.password = 0
-        self.key = 0
-        self.i = 0
-        self.time = 0
-
-class frame:
-    def __init__(self):
-        self.name = ""
-        self.len = 0
-        self.objects = []
-
-    def lenMe(self):
-        self.len = len(self.objects)
-
-    def boutMe(self):
-        print(self.name)
-        print(self.len)
 
 def begin(pp):
     sequence = next(pp["Sentence"])
@@ -151,9 +167,10 @@ def begin(pp):
             break
 
     fr = frame()
-    fr.name = ("My name is range: ("+str(pp["StandardMin"]) +" : " + str(pp["StandardMax"]) +")")
+    fr.name = (str(pp["StandardMin"]) +" : " + str(pp["StandardMax"]))
     fr.objects = omega[:]
     fr.lenMe()
+    fr.i = round(pp["StandardMax"]/100000)
     return fr
 
 def prepere(number, chipher):
@@ -177,13 +194,16 @@ def prepere(number, chipher):
 
 if __name__ == '__main__':
     startTimeProgram = time.time()
+    #Base info
     data = "0"
     key = "0"
     numberOfCycles = 1
+    #Options by terminal
     if len(sys.argv) > 1:
         data = sys.argv[1]
         key = sys.argv[2]
         numberOfCycles = int(sys.argv[3])
+
     coreNumber = multiprocessing.cpu_count()
 
 
@@ -191,11 +211,11 @@ if __name__ == '__main__':
     tab = prepere(numberOfCycles, chipher)
     p = multiprocessing.Pool(coreNumber)
 
-    outputArray = p.map(begin, tab)
+    outputList = p.map(begin, tab)
     '''
     output Structure:
     
-    outputarray list -> frame class obj
+    outputList list -> frame class obj
     frame struct:
         name string #The interval in which the process operated.
         len #Number of results
@@ -207,8 +227,13 @@ if __name__ == '__main__':
         i #loop number
         time #Current time to find the record
     '''
-    for record in outputArray:
+
+    sortlist = sortMe(outputList)
+    print(sortlist)
+    for record in sortlist:
         if record.len != 0:
             record.boutMe()
+
+
     print("Program output time: ", str(time.time() - startTimeProgram))
 
