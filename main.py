@@ -1,4 +1,4 @@
-import string, multiprocessing
+import string, multiprocessing, time, sys
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad
 
@@ -42,7 +42,6 @@ def findMe(jakisint):
     map[0] = 0
     for i in range(test):
         map[i+1] =  (100**(i+1))
-    print(map)
     cycles = {}
     buffor = {}
     for i in range(len(cycles)+1):
@@ -72,7 +71,6 @@ def findMe(jakisint):
         test = jakisint - cycles[i - 1]
         used = i - 1
 
-    print(test)
     workString = str(test)
     if len(workString) % 2 == 1:
         workString = "0"+workString
@@ -98,7 +96,6 @@ def findMe(jakisint):
         for _ in range(stars+1):
             buffor.append("0")
 
-    print(buffor)
     return buffor
 
 
@@ -112,66 +109,106 @@ def deCodeMe(data, key):
     ciphertext = cipher.decrypt(pad(data, 8))
     return ciphertext
 
-def begin(pp):
+class findings:
+    def __init__(self):
+        self.password = 0
+        self.key = 0
+        self.i = 0
+        self.time = 0
 
+class frame:
+    def __init__(self):
+        self.name = ""
+        self.len = 0
+        self.objects = []
+
+    def lenMe(self):
+        self.len = len(self.objects)
+
+    def boutMe(self):
+        print(self.name)
+        print(self.len)
+
+def begin(pp):
     sequence = next(pp["Sentence"])
     omega = []
-    i = 0
+    i = pp["StandardMin"]
     while True:
         buf = ""
         stra = buf.join(sequence)
         key = bytearray(stra, "utf-8")
         textbyte = bytearray(parseMe(deCodeMe(pp["Chipher"], key)), "utf-8")
         if codeMe(textbyte, key) == pp["Chipher"]:
-
-            omega.append("possibility: password = "+textbyte.decode("utf-8")+ "; key = "+ key.decode("utf-8"))
+            record = findings()
+            record.i = i
+            record.password = textbyte.decode("utf-8")
+            record.key = key.decode("utf-8")
+            record.time = str(time.time() - pp["TimeStamp"])
+            omega.append(record)
         i = i +1
         sequence = next(sequence)
         if i == pp["StandardMax"]:
             break
-    return omega
+
+    fr = frame()
+    fr.name = ("My name is range: ("+str(pp["StandardMin"]) +" : " + str(pp["StandardMax"]) +")")
+    fr.objects = omega[:]
+    fr.lenMe()
+    return fr
 
 def prepere(number, chipher):
     buf = []
+    ts = time.time()
     for i in range(number):
         bar = {
+            "ID" : str(i),
             "StandardMin": i*100000,
             "StandardMax": ((i+1)*100000)-1,
             "Chipher": chipher,
-            "Sentence": [],
+            "Sentence": findMe(i*100000)[:],
+            "TimeStamp" : ts,
         }
 
-        bar["Sentence"] = findMe(bar["StandardMin"])[:]
         buf.append(bar)
     return buf
 
-def prepereOne(number, chipher):
-    bar = {
-            "StandardMin": number*100000,
-            "StandardMax": ((number+1)*100000)-1,
-            "Chipher": chipher,
-            "Sentence": [],
-    }
 
-    bar["Sentence"] = findMe(bar["StandardMin"])[:]
-
-    return bar
 
 
 if __name__ == '__main__':
+    startTimeProgram = time.time()
+    data = "0"
+    key = "0"
+    numberOfCycles = 1
+    if len(sys.argv) > 1:
+        data = sys.argv[1]
+        key = sys.argv[2]
+        numberOfCycles = int(sys.argv[3])
+    coreNumber = multiprocessing.cpu_count()
 
-    data = "Taj"
-    key = "Bet"
+
     chipher = codeMe(bytearray(data, "utf-8"), bytearray(key, "utf-8"))
-    proc = []
-    output = {}
-    tab = prepere(13, chipher) # (number of structs to check, same)
+    tab = prepere(numberOfCycles, chipher)
+    p = multiprocessing.Pool(coreNumber)
 
-
-
-    p = multiprocessing.Pool(14) # number of proceses
-
-
-
-    print(p.map(begin, tab)) #output
+    outputArray = p.map(begin, tab)
+    '''
+    output Structure:
+    
+    outputarray list -> frame class obj
+    frame struct:
+        name string #The interval in which the process operated.
+        len #Number of results
+        objects list -> findings class obj #Stores the results of an interval
+     
+    findings class obj:
+        password #Likely password
+        key #Likely key
+        i #loop number
+        time #Current time to find the record
+    '''
+    for record in outputArray:
+        if record.len != 0:
+            record.boutMe()
+    print("Program output time: ", str(time.time() - startTimeProgram))
 
