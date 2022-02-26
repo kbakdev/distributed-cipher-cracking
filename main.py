@@ -1,4 +1,4 @@
-import string, multiprocessing, pytest
+import string, multiprocessing
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad
 
@@ -172,10 +172,6 @@ if __name__ == '__main__':
     p = multiprocessing.Pool(14) # number of proceses
 
 
-    def test_func_fast():
-        pass
 
-
-    
     print(p.map(begin, tab)) #output
 
