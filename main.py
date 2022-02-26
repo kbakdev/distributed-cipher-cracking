@@ -229,7 +229,6 @@ if __name__ == '__main__':
     '''
 
     sortlist = sortMe(outputList)
-    print(sortlist)
     for record in sortlist:
         if record.len != 0:
             record.boutMe()
