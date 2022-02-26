@@ -43,6 +43,7 @@ def findMe(jakisint):
     map[0] = 0
     for i in range(test):
         map[i+1] =  (100**(i+1))
+    print(map)
     cycles = {}
     buffor = {}
     for i in range(len(cycles)+1):
@@ -72,7 +73,7 @@ def findMe(jakisint):
         test = jakisint - cycles[i - 1]
         used = i - 1
 
-
+    print(test)
     workString = str(test)
     if len(workString) % 2 == 1:
         workString = "0"+workString
@@ -98,61 +99,9 @@ def findMe(jakisint):
         for _ in range(stars+1):
             buffor.append("0")
 
+    print(buffor)
     return buffor
-    # for i in range(len(cycles)):
-    #         if i != 0 :
-    #             if i == 1:
-    #                 a = jakisint%100
-    #                 test[i] = a
-    #             elif i != 1:
-    #                 a = jakisint-cycles[i]
-    #                 if i != len(cycles)-1:
-    #                     a = a % map[i]
-    #
-    #                 test[i] = a
-    #
 
-    # print("bb",test)
-    # print(map)
-    # i = len(test)
-    # for _ in test:
-    #     i=i-1
-    #     if test[i+1] <= 0:
-    #         test[i+1] = 0
-    #         break
-    # i = len(str(test))
-    # workString = str(test)
-    # aproLenght = 0
-    # if (aaaa*2) != i:
-    #     aproLenght = i+1
-    # if len(workString) != aproLenght:
-    #     needed = aproLenght-len(workString)
-    #     aar = ''
-    #     if needed > 0:
-    #         if len(workString) != 2:
-    #             aar = '0' * (needed)
-    #
-    #
-    #         table = aar+workString
-    #
-    #         workString = table
-    #
-    # if aaaa == 1:
-    #     workString = workString.join("00")
-    #
-    #
-    # buf = []
-    # i = 0
-    #
-    # for _ in range(round(len(workString)/2)):
-    #     buf.append(int(workString[i]+workString[i+1]))
-    #     i=i+2
-    # test = []
-    # i = len(buf)
-    # for _ in buf:
-    #     i = i - 1
-    #     test.append(indexToCharacter(buf[i]))
-    # return test
 
 def codeMe(data, key):
     cipher = DES.new(key=pad(key, 8), mode=DES.MODE_ECB)
