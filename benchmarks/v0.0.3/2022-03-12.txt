@@ -1,0 +1,658 @@
+Time of this test: 21:23:36
+Run time: 132.20338225364685
+Password: |"PUoeo
+Key: v	80
+LoopUnit: 1099630
+Time of test: 20.947375774383545
+Password: |"PUoeo
+Key: w	80
+LoopUnit: 1099631
+Time of test: 20.947375774383545
+Password: |"PUoeo
+Key: v	90
+LoopUnit: 1109630
+Time of test: 22.057344675064087
+Password: |"PUoeo
+Key: w	90
+LoopUnit: 1109631
+Time of test: 22.057344675064087
+Password: |Yn.h i
+Key: .ZX0
+LoopUnit: 1606274
+Time of test: 11.03242301940918
+Password: |Yn.h i
+Key: /ZX0
+LoopUnit: 1606275
+Time of test: 11.03242301940918
+Password: |Yn.h i
+Key: .[X0
+LoopUnit: 1608574
+Time of test: 11.258837461471558
+Password: |Yn.h i
+Key: /[X0
+LoopUnit: 1608575
+Time of test: 11.258837461471558
+Password: |Yn.h i
+Key: .ZY0
+LoopUnit: 1616274
+Time of test: 12.035799026489258
+Password: |Yn.h i
+Key: /ZY0
+LoopUnit: 1616275
+Time of test: 12.035799026489258
+Password: |Yn.h i
+Key: .[Y0
+LoopUnit: 1618574
+Time of test: 12.284642457962036
+Password: |Yn.h i
+Key: /[Y0
+LoopUnit: 1618575
+Time of test: 12.284642457962036
+Password: |"PUoeo
+Key: v	81
+LoopUnit: 2099630
+Time of test: 33.800336599349976
+Password: |"PUoeo
+Key: w	81
+LoopUnit: 2099631
+Time of test: 33.800336599349976
+Password: |"PUoeo
+Key: v	91
+LoopUnit: 2109630
+Time of test: 1.292487621307373
+Password: |"PUoeo
+Key: w	91
+LoopUnit: 2109631
+Time of test: 1.292487621307373
+Password: |Yn.h i
+Key: .ZX1
+LoopUnit: 2606274
+Time of test: 22.7133309841156
+Password: |Yn.h i
+Key: /ZX1
+LoopUnit: 2606275
+Time of test: 22.7133309841156
+Password: |Yn.h i
+Key: .[X1
+LoopUnit: 2608574
+Time of test: 22.97134280204773
+Password: |Yn.h i
+Key: /[X1
+LoopUnit: 2608575
+Time of test: 22.97134280204773
+Password: |Yn.h i
+Key: .ZY1
+LoopUnit: 2616274
+Time of test: 23.853330612182617
+Password: |Yn.h i
+Key: /ZY1
+LoopUnit: 2616275
+Time of test: 23.853330612182617
+Password: |Yn.h i
+Key: .[Y1
+LoopUnit: 2618574
+Time of test: 24.117361545562744
+Password: |Yn.h i
+Key: /[Y1
+LoopUnit: 2618575
+Time of test: 24.118359327316284
+Password:  Cq?ha
+Key: D\J2
+LoopUnit: 3468638
+Time of test: 19.503332138061523
+Password:  Cq?ha
+Key: E\J2
+LoopUnit: 3468639
+Time of test: 19.503332138061523
+Password:  Cq?ha
+Key: D]J2
+LoopUnit: 3468738
+Time of test: 19.514336109161377
+Password:  Cq?ha
+Key: E]J2
+LoopUnit: 3468739
+Time of test: 19.514841079711914
+Password:  Cq?ha
+Key: D\K2
+LoopUnit: 3478638
+Time of test: 20.706347703933716
+Password:  Cq?ha
+Key: E\K2
+LoopUnit: 3478639
+Time of test: 20.706347703933716
+Password:  Cq?ha
+Key: D]K2
+LoopUnit: 3478738
+Time of test: 20.716352462768555
+Password:  Cq?ha
+Key: E]K2
+LoopUnit: 3478739
+Time of test: 20.716352462768555
+Password:  Cq?ha
+Key: D\J3
+LoopUnit: 4468638
+Time of test: 65.06027269363403
+Password:  Cq?ha
+Key: E\J3
+LoopUnit: 4468639
+Time of test: 65.06027269363403
+Password:  Cq?ha
+Key: D]J3
+LoopUnit: 4468738
+Time of test: 65.07231903076172
+Password:  Cq?ha
+Key: E]J3
+LoopUnit: 4468739
+Time of test: 65.07231903076172
+Password:  Cq?ha
+Key: D\K3
+LoopUnit: 4478638
+Time of test: 66.2332911491394
+Password:  Cq?ha
+Key: E\K3
+LoopUnit: 4478639
+Time of test: 66.2332911491394
+Password:  Cq?ha
+Key: D]K3
+LoopUnit: 4478738
+Time of test: 66.244295835495
+Password:  Cq?ha
+Key: E]K3
+LoopUnit: 4478739
+Time of test: 66.244295835495
+Password: 2BQ;'H
+Key: vHb4
+LoopUnit: 5124430
+Time of test: 36.13331341743469
+Password: 2BQ;'H
+Key: wHb4
+LoopUnit: 5124431
+Time of test: 36.134310245513916
+Password: 2BQ;'H
+Key: vIb4
+LoopUnit: 5124530
+Time of test: 36.14434194564819
+Password: 2BQ;'H
+Key: wIb4
+LoopUnit: 5124531
+Time of test: 36.14434194564819
+Password: 2BQ;'H
+Key: vHc4
+LoopUnit: 5134430
+Time of test: 37.29737186431885
+Password: 2BQ;'H
+Key: wHc4
+LoopUnit: 5134431
+Time of test: 37.29737186431885
+Password: 2BQ;'H
+Key: vIc4
+LoopUnit: 5134530
+Time of test: 37.3073456287384
+Password: 2BQ;'H
+Key: wIc4
+LoopUnit: 5134531
+Time of test: 37.3073456287384
+Password: 76GZe7t
+Key: ,vA4
+LoopUnit: 5373272
+Time of test: 67.64480328559875
+Password: 76GZe7t
+Key: -vA4
+LoopUnit: 5373273
+Time of test: 67.64480328559875
+Password: 76GZe7t
+Key: ,wA4
+LoopUnit: 5373372
+Time of test: 67.65731358528137
+Password: 76GZe7t
+Key: -wA4
+LoopUnit: 5373373
+Time of test: 67.65731358528137
+Password: cz[( ML
+Key: 4.!4
+LoopUnit: 5637603
+Time of test: 61.748316526412964
+Password: cz[( ML
+Key: 5.!4
+LoopUnit: 5637604
+Time of test: 61.748316526412964
+Password: cz[( ML
+Key: 4/!4
+LoopUnit: 5637703
+Time of test: 61.76031422615051
+Password: cz[( ML
+Key: 5/!4
+LoopUnit: 5637704
+Time of test: 61.76031422615051
+Password: 76GZe7t
+Key: ,v@4
+LoopUnit: 5843272
+Time of test: 51.36129903793335
+Password: 76GZe7t
+Key: -v@4
+LoopUnit: 5843273
+Time of test: 51.36129903793335
+Password: 76GZe7t
+Key: ,w@4
+LoopUnit: 5843372
+Time of test: 51.37230086326599
+Password: 76GZe7t
+Key: -w@4
+LoopUnit: 5843373
+Time of test: 51.37230086326599
+Password: cz[( ML
+Key: 4. 4
+LoopUnit: 5957603
+Time of test: 65.02925848960876
+Password: cz[( ML
+Key: 5. 4
+LoopUnit: 5957604
+Time of test: 65.02925848960876
+Password: cz[( ML
+Key: 4/ 4
+LoopUnit: 5957703
+Time of test: 65.04026079177856
+Password: cz[( ML
+Key: 5/ 4
+LoopUnit: 5957704
+Time of test: 65.04026079177856
+Password: 2BQ;'H
+Key: vHb5
+LoopUnit: 6124430
+Time of test: 48.84231972694397
+Password: 2BQ;'H
+Key: wHb5
+LoopUnit: 6124431
+Time of test: 48.84231972694397
+Password: 2BQ;'H
+Key: vIb5
+LoopUnit: 6124530
+Time of test: 48.85332202911377
+Password: 2BQ;'H
+Key: wIb5
+LoopUnit: 6124531
+Time of test: 48.85332202911377
+Password: 2BQ;'H
+Key: vHc5
+LoopUnit: 6134430
+Time of test: 49.97477984428406
+Password: 2BQ;'H
+Key: wHc5
+LoopUnit: 6134431
+Time of test: 49.97477984428406
+Password: 2BQ;'H
+Key: vIc5
+LoopUnit: 6134530
+Time of test: 49.987290143966675
+Password: 2BQ;'H
+Key: wIc5
+LoopUnit: 6134531
+Time of test: 49.987290143966675
+Password: 76GZe7t
+Key: ,vA5
+LoopUnit: 6373272
+Time of test: 43.591339111328125
+Password: 76GZe7t
+Key: -vA5
+LoopUnit: 6373273
+Time of test: 43.591339111328125
+Password: 76GZe7t
+Key: ,wA5
+LoopUnit: 6373372
+Time of test: 43.602309465408325
+Password: 76GZe7t
+Key: -wA5
+LoopUnit: 6373373
+Time of test: 43.602309465408325
+Password: cz[( ML
+Key: 4.!5
+LoopUnit: 6637603
+Time of test: 40.34337592124939
+Password: cz[( ML
+Key: 5.!5
+LoopUnit: 6637604
+Time of test: 40.34337592124939
+Password: cz[( ML
+Key: 4/!5
+LoopUnit: 6637703
+Time of test: 40.355382680892944
+Password: cz[( ML
+Key: 5/!5
+LoopUnit: 6637704
+Time of test: 40.355382680892944
+Password: 76GZe7t
+Key: ,v@5
+LoopUnit: 6843272
+Time of test: 66.15028262138367
+Password: 76GZe7t
+Key: -v@5
+LoopUnit: 6843273
+Time of test: 66.15028262138367
+Password: 76GZe7t
+Key: ,w@5
+LoopUnit: 6843372
+Time of test: 66.16128516197205
+Password: 76GZe7t
+Key: -w@5
+LoopUnit: 6843373
+Time of test: 66.16128516197205
+Password: cz[( ML
+Key: 4. 5
+LoopUnit: 6957603
+Time of test: 42.91032576560974
+Password: cz[( ML
+Key: 5. 5
+LoopUnit: 6957604
+Time of test: 42.91032576560974
+Password: cz[( ML
+Key: 4/ 5
+LoopUnit: 6957703
+Time of test: 42.92232537269592
+Password: cz[( ML
+Key: 5/ 5
+LoopUnit: 6957704
+Time of test: 42.92232537269592
+Password: hxW41g:
+Key: ALN6
+LoopUnit: 7504835
+Time of test: 69.55028247833252
+Password: hxW41g:
+Key: @LN6
+LoopUnit: 7504882
+Time of test: 69.55626630783081
+Password: hxW41g:
+Key: AMN6
+LoopUnit: 7504935
+Time of test: 69.56225037574768
+Password: hxW41g:
+Key: @MN6
+LoopUnit: 7504982
+Time of test: 69.56726741790771
+Password: hxW41g:
+Key: ALO6
+LoopUnit: 7514835
+Time of test: 70.71024918556213
+Password: hxW41g:
+Key: @LO6
+LoopUnit: 7514882
+Time of test: 70.71626591682434
+Password: hxW41g:
+Key: AMO6
+LoopUnit: 7514935
+Time of test: 70.72224974632263
+Password: hxW41g:
+Key: @MO6
+LoopUnit: 7514982
+Time of test: 70.72727012634277
+Password: 
+)z/WD
+Key: Fx>6
+LoopUnit: 7823440
+Time of test: 71.84125709533691
+Password: 
+)z/WD
+Key: Gx>6
+LoopUnit: 7823441
+Time of test: 71.84125709533691
+Password: 
+)z/WD
+Key: Fy>6
+LoopUnit: 7823540
+Time of test: 71.85325527191162
+Password: 
+)z/WD
+Key: Gy>6
+LoopUnit: 7823541
+Time of test: 71.85325527191162
+Password: 
+)z/WD
+Key: Fx?6
+LoopUnit: 7833440
+Time of test: 73.00325322151184
+Password: 
+)z/WD
+Key: Gx?6
+LoopUnit: 7833441
+Time of test: 73.00325322151184
+Password: 
+)z/WD
+Key: Fy?6
+LoopUnit: 7833540
+Time of test: 73.01477837562561
+Password: 
+)z/WD
+Key: Gy?6
+LoopUnit: 7833541
+Time of test: 73.01477837562561
+Password: hxW41g:
+Key: ALN7
+LoopUnit: 8504835
+Time of test: 83.59630346298218
+Password: hxW41g:
+Key: @LN7
+LoopUnit: 8504882
+Time of test: 83.60128998756409
+Password: hxW41g:
+Key: AMN7
+LoopUnit: 8504935
+Time of test: 83.60730361938477
+Password: hxW41g:
+Key: @MN7
+LoopUnit: 8504982
+Time of test: 83.61229205131531
+Password: hxW41g:
+Key: ALO7
+LoopUnit: 8514835
+Time of test: 84.9192545413971
+Password: hxW41g:
+Key: @LO7
+LoopUnit: 8514882
+Time of test: 84.92424130439758
+Password: hxW41g:
+Key: AMO7
+LoopUnit: 8514935
+Time of test: 84.93025970458984
+Password: hxW41g:
+Key: @MO7
+LoopUnit: 8514982
+Time of test: 84.93524622917175
+Password: 
+)z/WD
+Key: Fx>7
+LoopUnit: 8823440
+Time of test: 85.40124416351318
+Password: 
+)z/WD
+Key: Gx>7
+LoopUnit: 8823441
+Time of test: 85.40124416351318
+Password: 
+)z/WD
+Key: Fy>7
+LoopUnit: 8823540
+Time of test: 85.4192283153534
+Password: 
+)z/WD
+Key: Gy>7
+LoopUnit: 8823541
+Time of test: 85.4192283153534
+Password: 
+)z/WD
+Key: Fx?7
+LoopUnit: 8833440
+Time of test: 86.57725977897644
+Password: 
+)z/WD
+Key: Gx?7
+LoopUnit: 8833441
+Time of test: 86.57725977897644
+Password: 
+)z/WD
+Key: Fy?7
+LoopUnit: 8833540
+Time of test: 86.5882613658905
+Password: 
+)z/WD
+Key: Gy?7
+LoopUnit: 8833541
+Time of test: 86.5882613658905
+Password: pr=Rw`d
+Key: alp8
+LoopUnit: 9262209
+Time of test: 101.81924152374268
+Password: pr=Rw`d
+Key: `lp8
+LoopUnit: 9262288
+Time of test: 101.82825231552124
+Password: pr=Rw`d
+Key: amp8
+LoopUnit: 9262309
+Time of test: 101.83124423027039
+Password: pr=Rw`d
+Key: `mp8
+LoopUnit: 9262388
+Time of test: 101.84121799468994
+Password: pr=Rw`d
+Key: alq8
+LoopUnit: 9272209
+Time of test: 103.08222007751465
+Password: pr=Rw`d
+Key: `lq8
+LoopUnit: 9272288
+Time of test: 103.09322261810303
+Password: pr=Rw`d
+Key: amq8
+LoopUnit: 9272309
+Time of test: 103.09625816345215
+Password: pr=Rw`d
+Key: `mq8
+LoopUnit: 9272388
+Time of test: 103.1042366027832
+Password: pr=Rw`d
+Key: alp9
+LoopUnit: 10262209
+Time of test: 80.47122573852539
+Password: pr=Rw`d
+Key: `lp9
+LoopUnit: 10262288
+Time of test: 80.48527407646179
+Password: pr=Rw`d
+Key: amp9
+LoopUnit: 10262309
+Time of test: 80.48725080490112
+Password: pr=Rw`d
+Key: `mp9
+LoopUnit: 10262388
+Time of test: 80.50423693656921
+Password: pr=Rw`d
+Key: alq9
+LoopUnit: 10272209
+Time of test: 81.85927987098694
+Password: pr=Rw`d
+Key: `lq9
+LoopUnit: 10272288
+Time of test: 81.8692855834961
+Password: pr=Rw`d
+Key: amq9
+LoopUnit: 10272309
+Time of test: 81.87128043174744
+Password: pr=Rw`d
+Key: `mq9
+LoopUnit: 10272388
+Time of test: 81.88028860092163
+Password: V-j}EI=
+Key: |8na
+LoopUnit: 11240990
+Time of test: 119.16055583953857
+Password: V-j}EI=
+Key: }8na
+LoopUnit: 11240991
+Time of test: 119.16055583953857
+Password: V-j}EI=
+Key: |9na
+LoopUnit: 11241090
+Time of test: 119.16654348373413
+Password: V-j}EI=
+Key: }9na
+LoopUnit: 11241091
+Time of test: 119.16754078865051
+Password: V-j}EI=
+Key: |8oa
+LoopUnit: 11250990
+Time of test: 119.96621870994568
+Password: V-j}EI=
+Key: }8oa
+LoopUnit: 11250991
+Time of test: 119.96621870994568
+Password: V-j}EI=
+Key: |9oa
+LoopUnit: 11251090
+Time of test: 119.97220253944397
+Password: V-j}EI=
+Key: }9oa
+LoopUnit: 11251091
+Time of test: 119.97220253944397
+Password: YIZT]@
+Key: 4^2b
+LoopUnit: 12038803
+Time of test: 111.05439400672913
+Password: YIZT]@
+Key: 5^2b
+LoopUnit: 12038804
+Time of test: 111.05439400672913
+Password: YIZT]@
+Key: 4_2b
+LoopUnit: 12038903
+Time of test: 111.06288385391235
+Password: YIZT]@
+Key: 5_2b
+LoopUnit: 12038904
+Time of test: 111.06288385391235
+Password: YIZT]@
+Key: 4^3b
+LoopUnit: 12048803
+Time of test: 111.90821146965027
+Password: YIZT]@
+Key: 5^3b
+LoopUnit: 12048804
+Time of test: 111.90821146965027
+Password: YIZT]@
+Key: 4_3b
+LoopUnit: 12048903
+Time of test: 111.91471314430237
+Password: YIZT]@
+Key: 5_3b
+LoopUnit: 12048904
+Time of test: 111.91471314430237
+Password: vbFgfE^
+Key: 0z\b
+LoopUnit: 12863599
+Time of test: 129.8892138004303
+Password: vbFgfE^
+Key: 1z\b
+LoopUnit: 12863600
+Time of test: 129.8892138004303
+Password: vbFgfE^
+Key: 0{\b
+LoopUnit: 12869099
+Time of test: 130.3452684879303
+Password: vbFgfE^
+Key: 1{\b
+LoopUnit: 12869100
+Time of test: 130.3462109565735
+Password: vbFgfE^
+Key: 0z]b
+LoopUnit: 12873599
+Time of test: 130.6752414703369
+Password: vbFgfE^
+Key: 1z]b
+LoopUnit: 12873600
+Time of test: 130.6752414703369
+Password: vbFgfE^
+Key: 0{]b
+LoopUnit: 12879099
+Time of test: 131.04920387268066
+Password: vbFgfE^
+Key: 1{]b
+LoopUnit: 12879100
+Time of test: 131.04920387268066

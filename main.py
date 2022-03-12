@@ -1,4 +1,4 @@
-import string, multiprocessing, time, sys
+import string, multiprocessing, time, sys, file
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad
 #initials
@@ -246,10 +246,7 @@ if __name__ == '__main__':
     '''
 
     sortlist = sortMe(outputList)
-    for record in sortlist:
-        if record.len != 0:
-            record.boutMe()
+    print("Done, check benchmarks->v0.0.3")
+    file.save(str(time.time() - startTimeProgram),sortlist)
 
-
-    print("Program output time: ", str(time.time() - startTimeProgram))
 
