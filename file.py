@@ -14,7 +14,7 @@ def save(endtime, list):
     currentDT = datetime.datetime.now()
     timeF = currentDT.strftime("%Y-%m-%d")
     time = currentDT.strftime("%H:%M:%S")
-    file = open("benchmarks/v0.0.3/"+timeF+".txt", "w")
+    file = open("benchmarks/v0.0.3/"+timeF+"_"+time+".txt", "w")
     bufor = initial(list)
     file.writelines("Time of this test: "+time+'\n')
     file.writelines("Run time: "+endtime + '\n')
