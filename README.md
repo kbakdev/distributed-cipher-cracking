@@ -73,8 +73,3 @@ python3 main.py "test" "test" 130 90
 
 - [@53jk1](https://github.com/53jk1)
 - [@Desukiteru](https://github.com/Desukiteru)
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Inspiration
-- References
