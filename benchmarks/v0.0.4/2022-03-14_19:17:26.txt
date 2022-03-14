@@ -1,3 +1,0 @@
-3.8.10
-System InformationSystem: {uname.system}Release: {uname.release}Version: {uname.version}Processor: {uname.processor}
-CPU Info
