@@ -1,6 +1,7 @@
 import datetime
 import platform
 import psutil
+import multiprocessing
 
 def initial(info):
     listoffindings = []
@@ -44,6 +45,7 @@ def save(endtime, list):
     file.writelines("\nCPU Info\n")
 
     cpufreq = psutil.cpu_freq()
+    file.writelines(f"Cores: {multiprocessing.cpu_count()}\n")
     file.writelines(f"Current Frequency: {cpufreq.current:.2f}Mhz\n")
     file.writelines(f"Total CPU Usage: {psutil.cpu_percent()}%\n")
 
