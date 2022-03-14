@@ -21,18 +21,6 @@ Preparation of a laboratory station for analysing the effectiveness of selected 
     <br> 
 </p>
 
-## 📝 Table of Contents
-
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
-
 ## 🧐 About <a name = "about"></a>
 
 Preparation of a laboratory station for analysing the effectiveness of selected methods of cracking cipher algorithms with the use of the Python language. In the article I will present the technique of breaking ciphers with brute force, I will analyse the frequency of breaking passwords depending on their difficulty level. 
@@ -68,33 +56,11 @@ If you are sure you have Python and pip, `cd` in the folder with the script, the
 ```
 
 
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+## 🔧 Benchmarks <a name = "benchmarks"></a>
 
 ```
-Give an example
+python3 main.py "test" "test" 130 90
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
