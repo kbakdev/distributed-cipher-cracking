@@ -1,0 +1,162 @@
+Time of this test: 19:06:50
+Run time: 10.333924293518066
+Password: pr=Rw`d
+Key: alp8
+LoopUnit: 9262209
+Time of test: 3.379818916320801
+Password: pr=Rw`d
+Key: `lp8
+LoopUnit: 9262288
+Time of test: 3.3839423656463623
+Password: pr=Rw`d
+Key: amp8
+LoopUnit: 9262309
+Time of test: 3.385021924972534
+Password: pr=Rw`d
+Key: `mp8
+LoopUnit: 9262388
+Time of test: 3.389075756072998
+Password: pr=Rw`d
+Key: alq8
+LoopUnit: 9272209
+Time of test: 3.9149394035339355
+Password: pr=Rw`d
+Key: `lq8
+LoopUnit: 9272288
+Time of test: 3.9190337657928467
+Password: pr=Rw`d
+Key: amq8
+LoopUnit: 9272309
+Time of test: 3.9201343059539795
+Password: pr=Rw`d
+Key: `mq8
+LoopUnit: 9272388
+Time of test: 3.9241957664489746
+Password: pr=Rw`d
+Key: alp9
+LoopUnit: 10262209
+Time of test: 3.415724754333496
+Password: pr=Rw`d
+Key: `lp9
+LoopUnit: 10262288
+Time of test: 3.4198334217071533
+Password: pr=Rw`d
+Key: amp9
+LoopUnit: 10262309
+Time of test: 3.421053886413574
+Password: pr=Rw`d
+Key: `mp9
+LoopUnit: 10262388
+Time of test: 3.4252865314483643
+Password: pr=Rw`d
+Key: alq9
+LoopUnit: 10272209
+Time of test: 3.9736523628234863
+Password: pr=Rw`d
+Key: `lq9
+LoopUnit: 10272288
+Time of test: 3.9778735637664795
+Password: pr=Rw`d
+Key: amq9
+LoopUnit: 10272309
+Time of test: 3.9789793491363525
+Password: pr=Rw`d
+Key: `mq9
+LoopUnit: 10272388
+Time of test: 3.983067512512207
+Password: V-j}EI=
+Key: |8na
+LoopUnit: 11240990
+Time of test: 2.6288974285125732
+Password: V-j}EI=
+Key: }8na
+LoopUnit: 11240991
+Time of test: 2.6289632320404053
+Password: V-j}EI=
+Key: |9na
+LoopUnit: 11241090
+Time of test: 2.6341195106506348
+Password: V-j}EI=
+Key: }9na
+LoopUnit: 11241091
+Time of test: 2.634176731109619
+Password: V-j}EI=
+Key: |8oa
+LoopUnit: 11250990
+Time of test: 3.1515138149261475
+Password: V-j}EI=
+Key: }8oa
+LoopUnit: 11250991
+Time of test: 3.151571035385132
+Password: V-j}EI=
+Key: |9oa
+LoopUnit: 11251090
+Time of test: 3.156632423400879
+Password: V-j}EI=
+Key: }9oa
+LoopUnit: 11251091
+Time of test: 3.1566872596740723
+Password: YIZT]@
+Key: 4^2b
+LoopUnit: 12038803
+Time of test: 7.3108971118927
+Password: YIZT]@
+Key: 5^2b
+LoopUnit: 12038804
+Time of test: 7.310961723327637
+Password: YIZT]@
+Key: 4_2b
+LoopUnit: 12038903
+Time of test: 7.316107511520386
+Password: YIZT]@
+Key: 5_2b
+LoopUnit: 12038904
+Time of test: 7.316161394119263
+Password: YIZT]@
+Key: 4^3b
+LoopUnit: 12048803
+Time of test: 7.778592348098755
+Password: YIZT]@
+Key: 5^3b
+LoopUnit: 12048804
+Time of test: 7.7786500453948975
+Password: YIZT]@
+Key: 4_3b
+LoopUnit: 12048903
+Time of test: 7.7837841510772705
+Password: YIZT]@
+Key: 5_3b
+LoopUnit: 12048904
+Time of test: 7.783837080001831
+Password: vbFgfE^
+Key: 0z\b
+LoopUnit: 12863599
+Time of test: 8.423699140548706
+Password: vbFgfE^
+Key: 1z\b
+LoopUnit: 12863600
+Time of test: 8.423767805099487
+Password: vbFgfE^
+Key: 0{\b
+LoopUnit: 12869099
+Time of test: 8.66868805885315
+Password: vbFgfE^
+Key: 1{\b
+LoopUnit: 12869100
+Time of test: 8.668746948242188
+Password: vbFgfE^
+Key: 0z]b
+LoopUnit: 12873599
+Time of test: 8.896963596343994
+Password: vbFgfE^
+Key: 1z]b
+LoopUnit: 12873600
+Time of test: 8.897013902664185
+Password: vbFgfE^
+Key: 0{]b
+LoopUnit: 12879099
+Time of test: 9.117614030838013
+Password: vbFgfE^
+Key: 1{]b
+LoopUnit: 12879100
+Time of test: 9.117674827575684

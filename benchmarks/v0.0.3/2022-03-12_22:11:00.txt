@@ -1,0 +1,102 @@
+Time of this test: 22:11:00
+Run time: 13.846358060836792
+Password: 0srV"jQ
+Key: p,n8
+LoopUnit: 9247424
+Time of test: 3.000357151031494
+Password: 0srV"jQ
+Key: q,n8
+LoopUnit: 9247425
+Time of test: 3.00042986869812
+Password: 0srV"jQ
+Key: p-n8
+LoopUnit: 9247524
+Time of test: 3.0058391094207764
+Password: 0srV"jQ
+Key: q-n8
+LoopUnit: 9247525
+Time of test: 3.005943775177002
+Password: 0srV"jQ
+Key: p,o8
+LoopUnit: 9257424
+Time of test: 3.5968198776245117
+Password: 0srV"jQ
+Key: q,o8
+LoopUnit: 9257425
+Time of test: 3.5968804359436035
+Password: 0srV"jQ
+Key: p-o8
+LoopUnit: 9257524
+Time of test: 3.6029303073883057
+Password: 0srV"jQ
+Key: q-o8
+LoopUnit: 9257525
+Time of test: 3.6029787063598633
+Password: 0srV"jQ
+Key: p,n9
+LoopUnit: 10247424
+Time of test: 3.23797607421875
+Password: 0srV"jQ
+Key: q,n9
+LoopUnit: 10247425
+Time of test: 3.2380504608154297
+Password: 0srV"jQ
+Key: p-n9
+LoopUnit: 10247524
+Time of test: 3.263887643814087
+Password: 0srV"jQ
+Key: q-n9
+LoopUnit: 10247525
+Time of test: 3.26395845413208
+Password: 0srV"jQ
+Key: p,o9
+LoopUnit: 10257424
+Time of test: 4.228712558746338
+Password: 0srV"jQ
+Key: q,o9
+LoopUnit: 10257425
+Time of test: 4.228776931762695
+Password: 0srV"jQ
+Key: p-o9
+LoopUnit: 10257524
+Time of test: 4.234708309173584
+Password: 0srV"jQ
+Key: q-o9
+LoopUnit: 10257525
+Time of test: 4.2348034381866455
+Password: pXv=y])
+Key: 
+\|a
+LoopUnit: 11928695
+Time of test: 8.957077026367188
+Password: pXv=y])
+Key: \|a
+LoopUnit: 11928697
+Time of test: 8.957200050354004
+Password: pXv=y])
+Key: 
+]|a
+LoopUnit: 11928795
+Time of test: 8.966362953186035
+Password: pXv=y])
+Key: ]|a
+LoopUnit: 11928797
+Time of test: 8.966490983963013
+Password: pXv=y])
+Key: 
+\}a
+LoopUnit: 11938695
+Time of test: 9.603092193603516
+Password: pXv=y])
+Key: \}a
+LoopUnit: 11938697
+Time of test: 9.60373067855835
+Password: pXv=y])
+Key: 
+]}a
+LoopUnit: 11938795
+Time of test: 9.609079837799072
+Password: pXv=y])
+Key: ]}a
+LoopUnit: 11938797
+Time of test: 9.609191417694092

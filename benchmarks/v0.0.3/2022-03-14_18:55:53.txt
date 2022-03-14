@@ -1,0 +1,6 @@
+Time of this test: 18:55:53
+Run time: 3.0980336666107178
+Password: 0
+Key: 1
+LoopUnit: 0
+Time of test: 0.01362752914428711
