@@ -1,0 +1,3 @@
+Python Version: 3.8.10
+System InformationSystem: LinuxRelease: 5.10.93.2-microsoft-standard-WSL2Version: #1 SMP Wed Jan 26 22:38:54 UTC 2022Processor: x86_64
+CPU Info

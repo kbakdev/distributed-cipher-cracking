@@ -246,7 +246,7 @@ if __name__ == '__main__':
     '''
 
     sortlist = sortMe(outputList)
-    print("Done, check benchmarks->v0.0.3")
+    print("Done, check benchmarks -> v0.0.4")
     file.save(str(time.time() - startTimeProgram),sortlist)
 
 
