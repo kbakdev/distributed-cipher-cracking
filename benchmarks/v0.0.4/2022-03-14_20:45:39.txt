@@ -1,0 +1,186 @@
+Python Version: 3.8.10
+
+System Information
+System: Linux
+Release: 5.11.0-40-generic
+Version: #44~20.04.2-Ubuntu SMP Tue Oct 26 18:07:44 UTC 2021
+Processor: x86_64
+
+CPU Info
+Cores: 2
+Current Frequency: 1.27Mhz
+Total CPU Usage: 99.9%
+
+Memory Information
+Total: 3.31GB
+Available: 1.87GB
+Used: 1.19GB
+Percentage: 43.4%
+
+SWAP
+Total: 2.00GB
+Free: 2.00GB
+Used: 1.51MB
+Percentage: 0.1%
+Time of this test: 20:45:39
+Run time: 856.3832311630249
+Password: pr=Rw`d
+Key: alp8
+LoopUnit: 9262209
+Time of test: 82.05483555793762
+Password: pr=Rw`d
+Key: `lp8
+LoopUnit: 9262288
+Time of test: 82.07946538925171
+Password: pr=Rw`d
+Key: amp8
+LoopUnit: 9262309
+Time of test: 82.08603501319885
+Password: pr=Rw`d
+Key: `mp8
+LoopUnit: 9262388
+Time of test: 82.11068558692932
+Password: pr=Rw`d
+Key: alq8
+LoopUnit: 9272209
+Time of test: 85.1706109046936
+Password: pr=Rw`d
+Key: `lq8
+LoopUnit: 9272288
+Time of test: 85.19517827033997
+Password: pr=Rw`d
+Key: amq8
+LoopUnit: 9272309
+Time of test: 85.2017183303833
+Password: pr=Rw`d
+Key: `mq8
+LoopUnit: 9272388
+Time of test: 85.22735166549683
+Password: pr=Rw`d
+Key: alp9
+LoopUnit: 10262209
+Time of test: 245.3688645362854
+Password: pr=Rw`d
+Key: `lp9
+LoopUnit: 10262288
+Time of test: 245.39353442192078
+Password: pr=Rw`d
+Key: amp9
+LoopUnit: 10262309
+Time of test: 245.4001350402832
+Password: pr=Rw`d
+Key: `mp9
+LoopUnit: 10262388
+Time of test: 245.42469692230225
+Password: pr=Rw`d
+Key: alq9
+LoopUnit: 10272209
+Time of test: 248.49488067626953
+Password: pr=Rw`d
+Key: `lq9
+LoopUnit: 10272288
+Time of test: 248.51936769485474
+Password: pr=Rw`d
+Key: amq9
+LoopUnit: 10272309
+Time of test: 248.5258960723877
+Password: pr=Rw`d
+Key: `mq9
+LoopUnit: 10272388
+Time of test: 248.55031180381775
+Password: V-j}EI=
+Key: |8na
+LoopUnit: 11240990
+Time of test: 451.58960795402527
+Password: V-j}EI=
+Key: }8na
+LoopUnit: 11240991
+Time of test: 451.5899603366852
+Password: V-j}EI=
+Key: |9na
+LoopUnit: 11241090
+Time of test: 451.6454677581787
+Password: V-j}EI=
+Key: }9na
+LoopUnit: 11241091
+Time of test: 451.64581966400146
+Password: V-j}EI=
+Key: |8oa
+LoopUnit: 11250990
+Time of test: 457.868289232254
+Password: V-j}EI=
+Key: }8oa
+LoopUnit: 11250991
+Time of test: 457.868638753891
+Password: V-j}EI=
+Key: |9oa
+LoopUnit: 11251090
+Time of test: 457.92402958869934
+Password: V-j}EI=
+Key: }9oa
+LoopUnit: 11251091
+Time of test: 457.92437982559204
+Password: YIZT]@
+Key: 4^2b
+LoopUnit: 12038803
+Time of test: 630.4526617527008
+Password: YIZT]@
+Key: 5^2b
+LoopUnit: 12038804
+Time of test: 630.4530177116394
+Password: YIZT]@
+Key: 4_2b
+LoopUnit: 12038903
+Time of test: 630.4837276935577
+Password: YIZT]@
+Key: 5_2b
+LoopUnit: 12038904
+Time of test: 630.4840712547302
+Password: YIZT]@
+Key: 4^3b
+LoopUnit: 12048803
+Time of test: 633.8126878738403
+Password: YIZT]@
+Key: 5^3b
+LoopUnit: 12048804
+Time of test: 633.8130447864532
+Password: YIZT]@
+Key: 4_3b
+LoopUnit: 12048903
+Time of test: 633.843930721283
+Password: YIZT]@
+Key: 5_3b
+LoopUnit: 12048904
+Time of test: 633.844272851944
+Password: vbFgfE^
+Key: 0z\b
+LoopUnit: 12863599
+Time of test: 775.8324911594391
+Password: vbFgfE^
+Key: 1z\b
+LoopUnit: 12863600
+Time of test: 775.8328695297241
+Password: vbFgfE^
+Key: 0{\b
+LoopUnit: 12869099
+Time of test: 781.1845874786377
+Password: vbFgfE^
+Key: 1{\b
+LoopUnit: 12869100
+Time of test: 781.1849567890167
+Password: vbFgfE^
+Key: 0z]b
+LoopUnit: 12873599
+Time of test: 785.4282431602478
+Password: vbFgfE^
+Key: 1z]b
+LoopUnit: 12873600
+Time of test: 785.4286105632782
+Password: vbFgfE^
+Key: 0{]b
+LoopUnit: 12879099
+Time of test: 790.6360123157501
+Password: vbFgfE^
+Key: 1{]b
+LoopUnit: 12879100
+Time of test: 790.6363813877106
