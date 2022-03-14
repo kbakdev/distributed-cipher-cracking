@@ -1,4 +1,4 @@
-import string, multiprocessing, time, sys
+import string, multiprocessing, time, sys, file
 from Crypto.Cipher import DES
 from Crypto.Util.Padding import pad
 #initials
@@ -128,11 +128,21 @@ def findMe(jakisint):
 
 def sortMe(list):
     bufor = []
-    i = len(list)
-    for _ in range(i):
-        bufor.append(0)
-    for rec in list:
-        bufor[rec.i-1] = rec
+    min = 1000000000000000000000000000
+    max = 0
+    for record in list:
+        if record.i < min:
+            min = record.i
+        if record.i > max:
+            max = record.i
+
+    if min == max:
+        min = 0
+
+    for i in range(min, max+1):
+        for record in list:
+            if record.i == i:
+                bufor.append(record)
     return bufor
 
 def codeMe(data, key):
@@ -173,10 +183,11 @@ def begin(pp):
     fr.i = round(pp["StandardMax"]/100000)
     return fr
 
-def prepere(number, chipher):
+def prepere(ran, number, chipher):
     buf = []
     ts = time.time()
-    for i in range(number):
+
+    for i in range(ran, number):
         bar = {
             "ID" : str(i),
             "StandardMin": i*100000,
@@ -198,17 +209,23 @@ if __name__ == '__main__':
     data = "0"
     key = "0"
     numberOfCycles = 1
+    ran = 0
     #Options by terminal
     if len(sys.argv) > 1:
         data = sys.argv[1]
         key = sys.argv[2]
         numberOfCycles = int(sys.argv[3])
+        if sys.argv[4] != "" and sys.argv[3] != "":
+            if int(sys.argv[4]) < int(sys.argv[3]):
+                ran = int(sys.argv[4])
+            else:
+                ran = int(sys.argv[3])
 
     coreNumber = multiprocessing.cpu_count()
 
 
     chipher = codeMe(bytearray(data, "utf-8"), bytearray(key, "utf-8"))
-    tab = prepere(numberOfCycles, chipher)
+    tab = prepere(ran, numberOfCycles, chipher)
     p = multiprocessing.Pool(coreNumber)
 
     outputList = p.map(begin, tab)
@@ -229,10 +246,7 @@ if __name__ == '__main__':
     '''
 
     sortlist = sortMe(outputList)
-    for record in sortlist:
-        if record.len != 0:
-            record.boutMe()
+    print("Done, check benchmarks->v0.0.3")
+    file.save(str(time.time() - startTimeProgram),sortlist)
 
-
-    print("Program output time: ", str(time.time() - startTimeProgram))
 
