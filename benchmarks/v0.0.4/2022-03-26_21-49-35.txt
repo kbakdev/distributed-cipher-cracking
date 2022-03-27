@@ -1,0 +1,194 @@
+Python Version: 3.10.4
+
+System Information
+System: Windows
+Release: 10
+Version: 10.0.22000
+Processor: Intel64 Family 6 Model 158 Stepping 13, GenuineIntel
+
+CPU Info
+Cores: 16
+Current Frequency: 3600.00Mhz
+Total CPU Usage: 90.4%
+
+Memory Information
+Total: 63.94GB
+Available: 45.98GB
+Used: 17.96GB
+Percentage: 28.1%
+
+SWAP
+Total: 9.50GB
+Free: 6.19GB
+Used: 3.31GB
+Percentage: 34.8%
+Time of this test: 21-49-35
+Run time: 16.07301139831543
+Password: pr=Rw`d
+Key: alp8
+LoopUnit: 9262209
+Time of test: 4.471204519271851
+Password: pr=Rw`d
+Key: `lp8
+LoopUnit: 9262288
+Time of test: 4.477693796157837
+Password: pr=Rw`d
+Key: amp8
+LoopUnit: 9262309
+Time of test: 4.478691101074219
+Password: pr=Rw`d
+Key: `mp8
+LoopUnit: 9262388
+Time of test: 4.483677625656128
+Password: pr=Rw`d
+Key: alq8
+LoopUnit: 9272209
+Time of test: 5.1110148429870605
+Password: pr=Rw`d
+Key: `lq8
+LoopUnit: 9272288
+Time of test: 5.116001605987549
+Password: pr=Rw`d
+Key: amq8
+LoopUnit: 9272309
+Time of test: 5.116998672485352
+Password: pr=Rw`d
+Key: `mq8
+LoopUnit: 9272388
+Time of test: 5.121985673904419
+Password: pr=Rw`d
+Key: alp9
+LoopUnit: 10262209
+Time of test: 4.67467474937439
+Password: pr=Rw`d
+Key: `lp9
+LoopUnit: 10262288
+Time of test: 4.67966103553772
+Password: pr=Rw`d
+Key: amp9
+LoopUnit: 10262309
+Time of test: 4.6816558837890625
+Password: pr=Rw`d
+Key: `mp9
+LoopUnit: 10262388
+Time of test: 4.68564510345459
+Password: pr=Rw`d
+Key: alq9
+LoopUnit: 10272209
+Time of test: 5.268101692199707
+Password: pr=Rw`d
+Key: `lq9
+LoopUnit: 10272288
+Time of test: 5.2720911502838135
+Password: pr=Rw`d
+Key: amq9
+LoopUnit: 10272309
+Time of test: 5.274085998535156
+Password: pr=Rw`d
+Key: `mq9
+LoopUnit: 10272388
+Time of test: 5.278580665588379
+Password: V-j}EI=
+Key: |8na
+LoopUnit: 11240990
+Time of test: 8.778350114822388
+Password: V-j}EI=
+Key: }8na
+LoopUnit: 11240991
+Time of test: 8.778350114822388
+Password: V-j}EI=
+Key: |9na
+LoopUnit: 11241090
+Time of test: 8.784334421157837
+Password: V-j}EI=
+Key: }9na
+LoopUnit: 11241091
+Time of test: 8.784334421157837
+Password: V-j}EI=
+Key: |8oa
+LoopUnit: 11250990
+Time of test: 9.352322101593018
+Password: V-j}EI=
+Key: }8oa
+LoopUnit: 11250991
+Time of test: 9.352322101593018
+Password: V-j}EI=
+Key: |9oa
+LoopUnit: 11251090
+Time of test: 9.357308626174927
+Password: V-j}EI=
+Key: }9oa
+LoopUnit: 11251091
+Time of test: 9.357308626174927
+Password: Y
+IZT]@
+Key: 4^2b
+LoopUnit: 12038803
+Time of test: 9.540831804275513
+Password: Y
+IZT]@
+Key: 5^2b
+LoopUnit: 12038804
+Time of test: 9.540831804275513
+Password: Y
+IZT]@
+Key: 4_2b
+LoopUnit: 12038903
+Time of test: 9.546815872192383
+Password: Y
+IZT]@
+Key: 5_2b
+LoopUnit: 12038904
+Time of test: 9.546815872192383
+Password: Y
+IZT]@
+Key: 4^3b
+LoopUnit: 12048803
+Time of test: 10.16566777229309
+Password: Y
+IZT]@
+Key: 5^3b
+LoopUnit: 12048804
+Time of test: 10.16566777229309
+Password: Y
+IZT]@
+Key: 4_3b
+LoopUnit: 12048903
+Time of test: 10.17165207862854
+Password: Y
+IZT]@
+Key: 5_3b
+LoopUnit: 12048904
+Time of test: 10.17165207862854
+Password: vbFgfE^
+Key: 0z\b
+LoopUnit: 12863599
+Time of test: 14.859781503677368
+Password: vbFgfE^
+Key: 1z\b
+LoopUnit: 12863600
+Time of test: 14.859781503677368
+Password: vbFgfE^
+Key: 0{\b
+LoopUnit: 12869099
+Time of test: 15.010379076004028
+Password: vbFgfE^
+Key: 1{\b
+LoopUnit: 12869100
+Time of test: 15.010379076004028
+Password: vbFgfE^
+Key: 0z]b
+LoopUnit: 12873599
+Time of test: 15.158981323242188
+Password: vbFgfE^
+Key: 1z]b
+LoopUnit: 12873600
+Time of test: 15.158981323242188
+Password: vbFgfE^
+Key: 0{]b
+LoopUnit: 12879099
+Time of test: 15.423067092895508
+Password: vbFgfE^
+Key: 1{]b
+LoopUnit: 12879100
+Time of test: 15.423067092895508
